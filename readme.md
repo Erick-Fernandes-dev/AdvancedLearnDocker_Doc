@@ -8,7 +8,7 @@
 Namespace é um conceito que permite que você tenha um escopo separado para cada conjunto de nomes. Isso significa que um nome de classe tem o mesmo significado em diferentes namespaces. Um namespace é projetado para superar o problema de conflito de nome. Por exemplo, você pode ter uma classe chamada MyClass em um namespace e a mesma classe MyClass em outro namespace. Essas duas classes são totalmente independentes. O namespace é uma coleção de classes.
 
 
-## amespaces
+## Namespaces
 
 Namespaces foram adicionados no kernel Linux na versão 2.6.24 e são eles que permitem o isolamento de processos quando estamos utilizando o Docker. São os responsáveis por fazer com que cada container possua seu próprio environment, ou seja, cada container terá a sua árvore de processos, pontos de montagens, etc., fazendo com que um container não interfira na execução de outro. Vamos saber um pouco mais sobre alguns namespaces utilizados pelo Docker.
 
